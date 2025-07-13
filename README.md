@@ -4,6 +4,13 @@
 Please make sure your branch is created from the main branch. Furthermore, branch names should start with the prefix `<type>/`, where `type`  
 is one of the categories defined in the [Commit Message](#commit-message) section.
 
+## Naming conventions
+- Column names for SQL tables should use `snake_case` for better readability
+- MySQL is case-insensitive by default so table names should also use `snake_case`
+
+## Code
+- SQL keywords should be capitalized for better readability (ex: `SELECT`, `FROM`, etc)
+
 ## Pull Requests
 A minimum of 2 approvals (not counting the person creating the pull request) are needed to merge onto the main branch.
 
