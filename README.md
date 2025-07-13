@@ -2,7 +2,7 @@
 
 ## Branches
 Please make sure your branch is created from the main branch. Furthermore, branch names should start with the prefix `<type>/`, where `type`  
-is one of the categories defined in the [Commit Message](#commit-message) section.
+is one of the categories defined in the [Commit Message](#commit-message) section.  
 
 ## Naming conventions
 - Column names for SQL tables should use `snake_case` for better readability
@@ -12,7 +12,8 @@ is one of the categories defined in the [Commit Message](#commit-message) sectio
 - SQL keywords should be capitalized for better readability (ex: `SELECT`, `FROM`, etc)
 
 ## Pull Requests
-A minimum of 2 approvals (not counting the person creating the pull request) are needed to merge onto the main branch.
+- A pull request is required when merging into `main` from another branch.
+- A minimum of 2 approvals (not counting the person creating the pull request) are needed to merge onto the main branch.
 
 ## Commit Message:
 Please make sure all of your commit messages start with one the types defined below:
