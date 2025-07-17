@@ -34,7 +34,7 @@ CREATE TABLE personnel (
     province VARCHAR(50),
     postal_code VARCHAR(10),
     email VARCHAR(100),
-    role ENUM('administrator', 'captain', 'coach', 'assistant coach', 'other'),
+    role ENUM('administrator', 'captain', 'coach', 'assistant coach', 'general manager', 'deputy manager', 'treasurer', 'secreatary', 'other'),
     mandate ENUM('volunteer', 'salaried'),
     location_id INT,
     FOREIGN KEY (location_id) REFERENCES locations(location_id)
