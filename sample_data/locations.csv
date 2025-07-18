@@ -1,0 +1,11 @@
+location_id,is_head,name,address,city,province,postal_code,phone,web_address,max_capacity
+1,1,The World Wide Web,164 Main St,Montreal,MB,K8N 8I3,432-261-2047,http://location1.org,77
+2,0,Location 2,619 Main St,Toronto,BC,S5A 9J1,150-745-2742,http://location2.org,82
+3,0,Location 3,442 Main St,Winnipeg,ON,O2P 2M2,996-811-2515,http://location3.org,54
+4,0,Location 4,164 Main St,Toronto,MB,D7V 4R1,643-916-6496,http://location4.org,166
+5,0,Location 5,155 Main St,Toronto,MB,P1J 7A4,101-440-4208,http://location5.org,186
+6,0,W.D Hall,1225 Susie St,Gasters,NL,F6F 6F6,709-123-4567,www.deltarune.com,300
+7,0,The Soos,432 Main Boulevard,Iqualuit,NU,X0A 0H0,123-456-7890,www.ImNotVeryOriginal.com,20
+8,0,The  Green Room,7312 rue de Brussels,Chicoutimi,QC,J8P 4N1,450-987-6543,www.green.com,700
+9,0,Dusty Depot,9 Moose Ave.,Banff,AB,M2D 7A9,777-7777-7891,www.blue.com,350
+10,0,Plugged In,8732 Ch. D'Eau,Quebec,QC,J9R 4B2,514-926-6841,www.red.com,1000
