@@ -1,11 +1,11 @@
 USE ftc353_1;
+DROP TABLE IF EXISTS payments;
 DROP TABLE IF EXISTS hobbies;
 DROP TABLE IF EXISTS club_members;
 DROP TABLE IF EXISTS family_members;
 DROP TABLE IF EXISTS personnel_loc_hist;
 DROP TABLE IF EXISTS personnel;
 DROP TABLE IF EXISTS locations;
-DROP TABLE IF EXISTS payments;
 
 -- LOCATIONS
 CREATE TABLE locations (
