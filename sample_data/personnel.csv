@@ -1,0 +1,31 @@
+employee_id,first_name,last_name,date_of_birth,ssn,medicare_num,phone,address,city,province,postal_code,email,role,mandate,location_id
+1,Brandon,Sullivan,1987-02-11,420-34-0533,GuQ71071,736.298.8065x2181,85099 Fields Parks,North Kyliechester,ON,J2I8P8,torresjamie@yahoo.com,secreatary,volunteer,28
+2,Rachel,Jones,1968-01-17,464-40-4924,ciD88906,524.118.7540x24420,2903 Butler Flat,New Danielberg,MB,L9N6H3,yorklaura@dominguez.com,captain,volunteer,17
+3,Amy,Jackson,1973-06-24,130-53-9219,bSv08612,(227)207-5851x5873,899 Andersen Street,Jonesshire,QC,A7R8W1,brittneybush@yahoo.com,captain,volunteer,10
+4,Janet,Wright,1996-08-25,743-39-3006,xrS70977,001-802-724-0487,507 Thornton Prairie Suite 142,Nicholasview,QC,Y9L6H4,cheyennejohnson@webb.com,other,volunteer,22
+5,Tina,Hickman,1962-07-17,301-48-5089,aTK11245,310.972.5497,08499 Vincent Locks,Hubbardland,AB,P8I9L2,jhicks@bush-lee.info,general manager,volunteer,20
+6,Jessica,Martinez,1964-11-13,603-31-2345,pGi28658,+1-125-780-6082x89816,956 Huerta Squares Suite 356,Ericaland,QC,X7S1C2,sjames@gmail.com,administrator,salaried,17
+7,Jessica,Price,1982-07-01,142-70-3944,atR59078,(124)367-2596,01517 Lynn Mountains Suite 150,Hernandezfurt,BC,H5G6S3,taylorjonathan@taylor.org,captain,volunteer,1
+8,Kimberly,Yang,1977-01-22,492-31-7801,chi92787,780-042-7218x6043,911 Brittany Curve Apt. 408,East Maryport,BC,H8Y4O6,fordnathan@young-baker.com,administrator,salaried,19
+9,David,Mejia,1978-12-04,800-12-6094,noy87574,(761)153-4370,173 Laura Canyon Suite 595,Port Darren,BC,T4Y8X4,kimberlyrobles@hotmail.com,administrator,salaried,7
+10,Carrie,Wells,1996-11-17,404-12-9230,sND35179,001-032-536-9725x51984,4895 Green Corners,Rivasville,QC,J1U5M2,chandevin@alvarado.net,other,salaried,22
+11,Denise,Greer,1968-08-04,494-39-7455,Fni71506,330.554.2077x31740,578 Torres Harbors,Natalieton,AB,E9Y2P7,marilynrichardson@yahoo.com,assistant coach,salaried,6
+12,Ricky,Bolton,1986-12-17,003-97-3080,sOr13383,681.983.6464x4901,36986 Hernandez Canyon,Reynoldsview,ON,R3P3A5,welchcarmen@drake.com,general manager,salaried,13
+13,Taylor,Cole,1970-09-24,167-51-9683,eHG40150,001-222-314-2041x654,539 Tina Spurs Apt. 899,Carpenterville,QC,N7M2K3,kristinschneider@hotmail.com,assistant coach,volunteer,2
+14,Ann,Clark,1994-09-07,805-58-3011,NzT17335,+1-968-970-2262,749 Laura Roads Suite 622,Lake Michaelstad,AB,E3H8X1,pdavis@gmail.com,assistant coach,salaried,21
+15,Joseph,Robinson,1992-09-24,165-95-3151,EUy96737,417-649-5993x0301,11864 George Roads Suite 626,Williamsfort,MB,S5J6V3,ugoodwin@gmail.com,treasurer,volunteer,20
+16,Spencer,Turner,1995-12-24,094-65-5258,zXE39019,001-603-483-2652x74300,734 Lori Forest Apt. 565,Port Shawnmouth,ON,V5D1W5,ntaylor@merritt.com,deputy manager,salaried,28
+17,Tonya,Moreno,1980-10-02,685-34-1097,PsZ70544,1533618872,7764 Sparks Ramp Suite 172,Watsonbury,AB,G7Z7F7,jason42@gmail.com,general manager,volunteer,11
+18,Anthony,Wade,1967-06-09,427-24-7880,UuN29215,001-464-618-1988,1387 Waters Meadow Apt. 730,Christinafort,MB,Y7A5A3,cardenasmichael@hotmail.com,coach,salaried,13
+19,Nicole,Maddox,1987-05-03,806-95-4853,iov76457,+1-265-704-2766,5092 Prince Plaza,Nolanshire,MB,K9S6X6,tanyajackson@silva.com,general manager,salaried,1
+20,James,Rose,1967-01-09,254-27-7684,RWH05790,(181)448-2166x40483,3618 Robinson Fields,Karlaside,ON,E8Q7Y7,bauerantonio@yahoo.com,other,salaried,17
+21,Stephanie,Daniel,1962-04-03,435-17-6064,Fze61980,127.261.7757,4931 Jessica Circle Apt. 973,Karenstad,QC,K8H1M6,barbarabailey@hotmail.com,general manager,salaried,5
+22,Peggy,Moore,1972-03-30,619-44-3939,FWr40475,(462)733-0045x9083,682 Dodson Point,New Sherriside,AB,R9K1X6,ashleyreid@dickson.biz,secreatary,volunteer,1
+23,Michael,Cruz,1993-01-10,473-91-7490,Cuf68485,531.454.1273,97920 Michelle Ferry,North Albertside,QC,J1O8A5,dclark@yahoo.com,assistant coach,salaried,13
+24,Christine,Miller,1961-07-31,796-95-2105,PPO65667,433-133-5357,030 Rodriguez Ridge,North Kimberlyport,AB,G3H2T3,stevencooper@gmail.com,other,volunteer,22
+25,Anne,Rowe,1962-08-04,890-08-7890,MER71201,(583)617-9650x11489,61414 Williams Track Suite 491,Samanthaburgh,ON,N5U9H4,crystallester@hayes.com,assistant coach,volunteer,14
+26,Tammy,Poole,1974-04-21,357-64-4770,RcY00136,0911514213,175 Fuller Extension Apt. 483,Jacobbury,AB,B2R5J2,santosjanice@dickerson.biz,secreatary,salaried,14
+27,Kara,Hall,1961-09-23,604-81-5836,VOt39382,(211)110-5075x9913,81675 Wu Parkways,Joshuamouth,QC,P2I7H9,denise02@johnson.com,general manager,salaried,10
+28,Tracy,Nguyen,1990-05-14,531-95-1710,ZOM61090,(118)476-9052,28109 Mills Extension Suite 497,North Sharon,AB,T5T8J6,mtaylor@petty.com,captain,salaried,12
+29,Wayne,Byrd,1982-04-17,845-16-6040,lut16015,588-772-5372,80862 Tyler Overpass Apt. 765,West Karen,ON,Y8P3M4,jacksonmark@gmail.com,treasurer,volunteer,12
+30,Anthony,Gardner,1991-12-16,881-90-6823,Yad14330,(436)965-6378,7116 Cynthia Villages,Katiefort,MB,Y8U3M7,ashley38@edwards-robles.org,administrator,salaried,26
