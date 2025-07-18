@@ -5,6 +5,7 @@ DROP TABLE IF EXISTS family_members;
 DROP TABLE IF EXISTS personnel_loc_hist;
 DROP TABLE IF EXISTS personnel;
 DROP TABLE IF EXISTS locations;
+DROP TABLE IF EXISTS payments;
 
 -- LOCATIONS
 CREATE TABLE locations (
@@ -66,6 +67,7 @@ CREATE TABLE family_members (
     postal_code VARCHAR(10),
     email VARCHAR(100),
     location_id INT,
+    relationship ENUM('father', 'mother', 'grandfather', 'grandmother', 'tutor', 'partner', 'friend', 'other'),
     FOREIGN KEY (location_id) REFERENCES locations(location_id)
 );
 
@@ -87,7 +89,8 @@ CREATE TABLE club_members (
     province VARCHAR(50),
     postal_code VARCHAR(10),
     fm_id INT,
-    FOREIGN KEY (fm_id) REFERENCES family_members(fm_id)
+    FOREIGN KEY (fm_id) REFERENCES family_members(fm_id),
+    CHECK (is_minor = 0 OR fm_id IS NOT NULL) -- either the member is an adult or they have a family member assigned
 );
 
 -- HOBBIES
@@ -95,5 +98,15 @@ CREATE TABLE hobbies (
     cm_id INT,
     hobby VARCHAR(50),
     PRIMARY KEY (cm_id, hobby),
+    FOREIGN KEY (cm_id) REFERENCES club_members(cm_id)
+);
+
+-- PAYMENTS
+CREATE TABLE payments (
+    cm_id INT,
+    memb_year INT,
+    payment_date DATE,
+    amount DECIMAL (5, 2),
+    method ENUM('credit', 'debit', 'cash'),
     FOREIGN KEY (cm_id) REFERENCES club_members(cm_id)
 );
