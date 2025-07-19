@@ -1,5 +1,5 @@
 employee_id,first_name,last_name,date_of_birth,ssn,medicare_num,phone,address,city,province,postal_code,email,role,mandate,location_id
-1,Brandon,Sullivan,1987-02-11,420-34-0533,GuQ71071,736.298.8065x2181,85099 Fields Parks,North Kyliechester,ON,J2I8P8,torresjamie@yahoo.com,secreatary,volunteer,28
+1,Brandon,Sullivan,1987-02-11,420-34-0533,GuQ71071,736.298.8065x2181,85099 Fields Parks,North Kyliechester,ON,J2I8P8,torresjamie@yahoo.com,secretary,volunteer,28
 2,Rachel,Jones,1968-01-17,464-40-4924,ciD88906,524.118.7540x24420,2903 Butler Flat,New Danielberg,MB,L9N6H3,yorklaura@dominguez.com,captain,volunteer,17
 3,Amy,Jackson,1973-06-24,130-53-9219,bSv08612,(227)207-5851x5873,899 Andersen Street,Jonesshire,QC,A7R8W1,brittneybush@yahoo.com,captain,volunteer,10
 4,Janet,Wright,1996-08-25,743-39-3006,xrS70977,001-802-724-0487,507 Thornton Prairie Suite 142,Nicholasview,QC,Y9L6H4,cheyennejohnson@webb.com,other,volunteer,22
@@ -24,8 +24,10 @@ employee_id,first_name,last_name,date_of_birth,ssn,medicare_num,phone,address,ci
 23,Michael,Cruz,1993-01-10,473-91-7490,Cuf68485,531.454.1273,97920 Michelle Ferry,North Albertside,QC,J1O8A5,dclark@yahoo.com,assistant coach,salaried,13
 24,Christine,Miller,1961-07-31,796-95-2105,PPO65667,433-133-5357,030 Rodriguez Ridge,North Kimberlyport,AB,G3H2T3,stevencooper@gmail.com,other,volunteer,22
 25,Anne,Rowe,1962-08-04,890-08-7890,MER71201,(583)617-9650x11489,61414 Williams Track Suite 491,Samanthaburgh,ON,N5U9H4,crystallester@hayes.com,assistant coach,volunteer,14
-26,Tammy,Poole,1974-04-21,357-64-4770,RcY00136,0911514213,175 Fuller Extension Apt. 483,Jacobbury,AB,B2R5J2,santosjanice@dickerson.biz,secreatary,salaried,14
+26,Tammy,Poole,1974-04-21,357-64-4770,RcY00136,0911514213,175 Fuller Extension Apt. 483,Jacobbury,AB,B2R5J2,santosjanice@dickerson.biz,secretary,salaried,14
 27,Kara,Hall,1961-09-23,604-81-5836,VOt39382,(211)110-5075x9913,81675 Wu Parkways,Joshuamouth,QC,P2I7H9,denise02@johnson.com,other,salaried,10
 28,Tracy,Nguyen,1990-05-14,531-95-1710,ZOM61090,(118)476-9052,28109 Mills Extension Suite 497,North Sharon,AB,T5T8J6,mtaylor@petty.com,captain,salaried,12
 29,Wayne,Byrd,1982-04-17,845-16-6040,lut16015,588-772-5372,80862 Tyler Overpass Apt. 765,West Karen,ON,Y8P3M4,jacksonmark@gmail.com,coach,volunteer,12
 30,Anthony,Gardner,1991-12-16,881-90-6823,Yad14330,(436)965-6378,7116 Cynthia Villages,Katiefort,MB,Y8U3M7,ashley38@edwards-robles.org,administrator,salaried,26
+31,Susan,Williams,2000-05-08,425-39-5287,XON24882,(295)394-7962x3666,096 Brian Via,North Peterborough,ON,E6W3O3,susan_williams@gmail.com,secretary,salaried,24
+32,Sherry,Reyes,2006-04-04,513-78-2950,Wad57403,356-222-7637,012 Mcdaniel Bypass,Millerside,MB,S2K9U7,sherry_reyes@gmail.com,coach,salaried,28
