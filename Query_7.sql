@@ -1,8 +1,8 @@
 USE ftc353_1;
 
 SELECT
-    SUM(total_paid) AS total_fees_paid,
-    SUM(donation_amt) AS total_donations
+    SUM(m.total_paid) AS total_fees_paid,
+    SUM(m.donation_amt) AS total_donations
 FROM club_members c
 INNER JOIN memberships m
     ON m.cm_id = c.cm_id
