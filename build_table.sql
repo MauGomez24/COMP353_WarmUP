@@ -14,6 +14,7 @@ DROP TABLE IF EXISTS family_members;
 DROP TABLE IF EXISTS personnel_loc_hist;
 DROP TABLE IF EXISTS personnel;
 DROP TABLE IF EXISTS locations;
+DROP TABLE IF EXISTS postal_codes;
 
 -- POSTAL CODES
 CREATE TABLE postal_codes (
@@ -126,7 +127,7 @@ CREATE TABLE payments (
     payment_date DATE,
     amount DECIMAL (5, 2),
     method ENUM('credit', 'debit', 'cash'),
-    PRIMARY KEY (payment_id)
+    PRIMARY KEY (payment_id),
     FOREIGN KEY (cm_id) REFERENCES club_members(cm_id)
 );
 
