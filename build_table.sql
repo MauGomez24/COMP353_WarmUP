@@ -183,7 +183,7 @@ CREATE TABLE teams (
 CREATE TABLE team_players (
     cm_id INT,
     team_id INT,
-    role ENUM('goalkeeper', 'defender', 'midfielder', 'forward'),  
+    role ENUM('libero', 'setter', 'outside hitter', 'opposite hitter', 'middle blocker', 'defensive specialist'),  
 	PRIMARY KEY (cm_id, team_id),
     FOREIGN KEY (cm_id) REFERENCES club_members(cm_id),
     FOREIGN KEY (team_id) REFERENCES teams(team_id)
