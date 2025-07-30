@@ -97,6 +97,7 @@ CREATE TABLE club_members (
     ssn VARCHAR(15) NOT NULL UNIQUE,
     medicare_num VARCHAR(20),
     phone VARCHAR(20),
+    email VARCHAR(75),
     address VARCHAR(100),
     postal_code VARCHAR(10),
 	gender CHAR(1),
