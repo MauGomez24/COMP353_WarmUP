@@ -306,25 +306,29 @@ INSERT INTO family_members (
 (27,'Sarah','Meyer','1988-10-22','291-53-8358','tLm05467','+1-648-293-8983','8077 Donna Walks','R8X8G1','michael68@hotmail.com',7,'partner'),
 (28,'Christopher','Stewart','1987-01-04','065-70-8664','yKa47206','288.039.6057','107 David Fork','C6T2V9','eric72@fields.com',24,'other'),
 (29,'Jaclyn','Davis','1982-05-25','281-02-3756','WCi93443','748-115-0435x4950','033 Walter Mission','H6Q4E4','derek80@yahoo.com',3,'partner'),
-(30,'Anthony','Mosley','1970-02-18','862-84-5384','xMV50313','205.883.9774','0541 Mitchell Spurs Suite 775','J2C1Y3','tammy43@vargas.com',25,'other');
-
+(30,'Anthony','Mosley','1970-02-18','862-84-5384','xMV50313','205.883.9774','0541 Mitchell Spurs Suite 775','J2C1Y3','tammy43@vargas.com',25,'other'),
+(31,'Anthony','Wade','1967-06-09','427-24-7880','UuN29215','001-464-618-1988','1387 Waters Meadow Apt. 730','Y7A5A3','cardenasmichael@hotmail.com',13,'tutor'),
+(32,'Nicole','Maddox','1987-05-03','806-95-4853','iov76457','-3734','5092 Prince Plaza','K9S6X6','tanyajackson@silva.com',1,'other'),
+(33,'Wayne','Byrd','1982-04-17','845-16-6040','lut16015','588-772-5372','80862 Tyler Overpass Apt. 765','Y8P3M4','jacksonmark@gmail.com',12,'grandfather'),
+(34,'Michael','Johnson','1980-05-15','501-22-3344','MJX50122','555-101-2020','123 Court Street','M5V2T2','m.johnson@hoops.com',1,'friend'),
+(35,'Lisa','Wilson','1985-01-12','506-77-8899','LWX50677','555-606-7070','987 Dribble Blvd','T5J0R7','l.wilson@hoops.com',6,'mother');
 
 
 INSERT INTO club_members (
     first_name, last_name, age, is_minor, date_of_birth, height, weight, 
     ssn, medicare_num, phone, email, address, postal_code, gender, location_id, fm_id
 ) VALUES
-('Charles','Sullivan',24,0,'2001-07-28',180.16,42.4,'212-63-9750','HKI89498','(928)453-3744x4842','charles_sullivan@gmail.com','4718 Ortiz Gateway','P2R8R7','M',14,NULL),
-('Tanner','Shaw',25,0,'1999-05-29',186.37,54.42,'703-39-9103','bJb29535','717.557.7204','tanner_shaw@hotmail.com','09405 Pruitt Tunnel','K4K6X4','M',2,NULL),
-('Lisa','Buckley',17,1,'2007-10-04',190.85,73.31,'078-58-9967','bao91220','+1-546-200-8014x6325','lisa_buckley@yahoo.com','29112 Brandon Valleys','C5I3B7','F',20,26),
-('Melinda','Mcmillan',30,0,'1995-09-10',188.24,99.4,'760-58-5598','ktX36596','+1-191-548-001x86','mel_mcmillan@gmail.com','06062 Kelley Causeway Suite 897','R5N5A3','F',5,NULL),
-('Vincent','Peters',17,1,'2008-06-28',150.38,79.56,'494-83-8209','kdI94518','426-373-5040x161','v_peters@gmail.com','715 Chris Springs Suite 239','R8J9R6','M',21,9),
-('Julie','Stephenson',28,0,'1997-02-25',198.66,115.11,'329-80-5404','vzk36749','334-147-2308','jul_stephenson@gmail.com','253 Lang Lodge Suite 049','Y3P9Y5','F',29,NULL),
+('Charles','Sullivan',24,0,'2001-07-28',180.16,42.4,'212-63-9750','HKI89498','(928)453-3744x4842','charles_sullivan@gmail.com','4718 Ortiz Gateway','P2R8R7','M',14,30),
+('Tanner','Shaw',25,0,'1999-05-29',186.37,54.42,'703-39-9103','bJb29535','717.557.7204','tanner_shaw@hotmail.com','09405 Pruitt Tunnel','K4K6X4','M',2,31),
+('Lisa','Buckley',17,1,'2007-10-04',190.85,73.31,'078-58-9967','bao91220','+1-546-200-8014x6325','lisa_buckley@yahoo.com','29112 Brandon Valleys','C5I3B7','F',20,31),
+('Melinda','Mcmillan',30,0,'1995-09-10',188.24,99.4,'760-58-5598','ktX36596','+1-191-548-001x86','mel_mcmillan@gmail.com','06062 Kelley Causeway Suite 897','R5N5A3','F',5,32),
+('Vincent','Peters',17,1,'2008-06-28',150.38,79.56,'494-83-8209','kdI94518','426-373-5040x161','v_peters@gmail.com','715 Chris Springs Suite 239','R8J9R6','M',21,33),
+('Julie','Stephenson',28,0,'1997-02-25',198.66,115.11,'329-80-5404','vzk36749','334-147-2308','jul_stephenson@gmail.com','253 Lang Lodge Suite 049','Y3P9Y5','F',29,34),
 ('Christopher','Pacheco',17,1,'2008-04-04',150.49,60.36,'458-01-6131','GDm26664','8935929230','chris_pacheco@gmail.com','24030 Smith Pine','C8N6H4','M',19,18),
-('Nicholas','Mcclure',31,0,'1994-07-18',193.05,112.61,'289-44-5998','nNJ46653','770.765.0008x623','nicholas_mac@gmail.com','91067 Mary Forges','M2I1M7','M',16,NULL),
-('Christopher','Hogan',30,0,'1995-05-29',146.03,115.83,'674-77-8133','VuG47396','158.725.4331x0229','christoph_hog@hotmail.com','2736 Hill Ports','P1A3N3','M',22,NULL),
+('Nicholas','Mcclure',31,0,'1994-07-18',193.05,112.61,'289-44-5998','nNJ46653','770.765.0008x623','nicholas_mac@gmail.com','91067 Mary Forges','M2I1M7','M',16,34),
+('Christopher','Hogan',30,0,'1995-05-29',146.03,115.83,'674-77-8133','VuG47396','158.725.4331x0229','christoph_hog@hotmail.com','2736 Hill Ports','P1A3N3','M',22,35),
 ('Elizabeth','Mcgee',28,0,'1997-08-26',158.23,89.25,'769-60-1311','Nrx15542','976-127-3814x154','liz_mcgee@gmail.com','3398 Fields Fords','M9C1T2','F',19,NULL),
-('Reginald','Stein',30,0,'1995-09-15',162.68,99.73,'819-40-6984','eJY68914','001-460-396-3524x794','reggie_stein@yahoo.com','934 Lynn Prairie Apt. 665','B5I7R4','M',18,NULL),
+('Reginald','Stein',30,0,'1995-09-15',162.68,99.73,'819-40-6984','eJY68914','001-460-396-3524x794','reggie_stein@yahoo.com','934 Lynn Prairie Apt. 665','B5I7R4','M',18,35),
 ('Christy','Miller',35,0,'1990-04-14',148.55,113.41,'771-91-5408','FFf79157','275.676.6361x939','christy_m34@gmail.com','445 Baldwin Roads Suite 608','H9M6A9','F',19,NULL),
 ('Carl','Chen',16,1,'2009-12-04',177.74,86.77,'023-33-1991','QdG54903','482.795.1784','cchen@yahoo.com','4894 Glover Mews','P5L3C7','M',19,18),
 ('Steven','Castro',17,1,'2008-01-01',165.65,47.35,'014-67-0927','KUl67322','001-925-169-1x4750','steven_castro@gmail.com','44250 Donald Union','B7H6I1','M',10,11),
