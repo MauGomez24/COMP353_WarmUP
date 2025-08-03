@@ -8,4 +8,4 @@ DO
   UPDATE club_members
   SET 
     age = TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()),
-    is_minor = IF(TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()) < 18, TRUE, FALSE);
+    is_minor = IF(TIMESTAMPDIFF(YEAR, date_of_birth, CURDATE()) < 18, 1, 0);
