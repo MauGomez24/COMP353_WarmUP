@@ -62,7 +62,7 @@ WITH
     ),
 
     undefeated_members_info AS (
-        SELECT
+        SELECT DISTINCT
             cm.cm_id,
             cm.first_name,
             cm.last_name,

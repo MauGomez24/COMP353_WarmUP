@@ -38,7 +38,7 @@ WITH
     ),
 
     fam_coaches AS (
-        SELECT
+        SELECT DISTINCT
             fam.first_name,
             fam.last_name,
             fam.phone
