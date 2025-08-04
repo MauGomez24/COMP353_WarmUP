@@ -10,7 +10,7 @@ CREATE VIEW always_setter_posn AS
 
 WITH 
     setters_id AS (
-        SELECT
+        SELECT DISTINCT
             cm_id
         FROM team_players
         WHERE `role` = 'setter'
