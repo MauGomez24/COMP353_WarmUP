@@ -498,12 +498,18 @@ INSERT INTO payments (cm_id, memb_year, payment_date, amount, method) VALUES
 (28, 2023, '2022-04-16', 143.27, 'credit'),
 (4, 2023, '2022-04-08', 137.48, 'cash'),
 (16, 2023, '2022-07-24', 86.66, 'debit'),
-(55, 2023, '2023-01-01', 158.19, 'cash'),
-(56, 2024, '2023-07-11', 134.93, 'credit'),
-(57, 2023, '2022-04-16', 143.27, 'credit'),
-(58, 2023, '2022-04-08', 137.48, 'cash'),
-(59, 2023, '2022-07-24', 186.66, 'debit'),
-(60, 2024, '2023-06-07', 144.74, 'credit');
+(55, 2023, '2023-01-01', 258.19, 'cash'),
+(56, 2024, '2023-07-11', 234.93, 'credit'),
+(57, 2023, '2022-04-16', 243.27, 'credit'),
+(58, 2023, '2022-04-08', 237.48, 'cash'),
+(59, 2023, '2022-07-24', 286.66, 'debit'),
+(60, 2024, '2023-06-07', 244.74, 'credit'),
+(61, 2023, '2023-01-01', 258.19, 'cash'),
+(62, 2024, '2023-07-11', 234.93, 'credit'),
+(63, 2023, '2022-04-16', 243.27, 'credit'),
+(64, 2023, '2022-04-08', 237.48, 'cash'),
+(65, 2023, '2022-07-24', 286.66, 'debit'),
+(66, 2024, '2023-06-07', 244.74, 'credit');
 
 
 INSERT INTO sec_fam_members (sfm_id, fm_id, first_name, last_name, phone, relationship) VALUES
@@ -581,37 +587,37 @@ INSERT INTO family_club_relations (cm_id,fm_id,sfm_id) VALUES
 (60,30,30);
 
 INSERT INTO sessions (session_id, type, date, time, location_id) VALUES
-(1, 'train', '2023-09-05', '18:00', 1),
-(2, 'game', '2023-09-09', '15:30', 2),
-(3, 'train', '2023-09-12', '17:30', 3),
-(4, 'train', '2023-09-15', '18:00', 4),
-(5, 'game', '2023-09-19', '19:00', 5),
-(6, 'train', '2023-09-22', '17:00', 6),
-(7, 'game', '2023-09-26', '20:00', 7),
-(8, 'train', '2023-09-29', '18:30', 8),
-(9, 'game', '2023-10-03', '19:30', 9),
+(1, 'train', '2023-09-05', '09:00', 1),
+(2, 'game', '2023-09-09', '09:00', 2),
+(3, 'train', '2023-09-12', '09:00', 3),
+(4, 'train', '2023-09-15', '09:00', 4),
+(5, 'game', '2023-09-19', '09:00', 5),
+(6, 'train', '2023-09-22', '09:00', 6),
+(7, 'game', '2023-09-26', '09:00', 7),
+(8, 'train', '2023-09-29', '09:00', 8),
+(9, 'game', '2023-10-03', '09:00', 9),
 (10, 'train', '2023-10-07', '09:00', 10),
-(11, 'game', '2023-09-09', '15:30', 1),
-(12, 'game', '2023-09-05', '18:00', 1),
-(13, 'game', '2023-09-12', '17:30', 1),
-(14, 'game', '2023-09-15', '18:00', 2),
-(15, 'game', '2023-09-19', '19:00', 2),
-(16, 'game', '2023-09-22', '17:00', 2),
-(17, 'game', '2023-09-26', '20:00', 3),
-(18, 'game', '2023-09-29', '18:30', 3),
-(19, 'game', '2023-10-03', '19:30', 3),
-(20, 'game', '2023-10-07', '09:00', 3),
-(21, 'game', '2023-09-09', '15:30', 4),
-(22, 'game', '2023-09-05', '18:00', 4),
-(23, 'game', '2023-09-12', '17:30', 4),
-(24, 'game', '2023-09-09', '15:30', 4),
-(25, 'game', '2023-09-05', '18:00', 5),
-(26, 'game', '2023-09-12', '17:30', 5),
-(27, 'game', '2023-09-05', '18:00', 5),
-(28, 'game', '2023-09-12', '17:30', 6),
-(29, 'game', '2023-09-09', '15:30', 6),
-(30, 'game', '2023-09-05', '18:00', 6),
-(31, 'game', '2023-09-12', '17:30', 6);
+(11, 'game', '2023-09-09', '14:00', 1),
+(12, 'game', '2023-09-05', '14:00', 1),
+(13, 'game', '2023-09-12', '14:00', 1),
+(14, 'game', '2023-09-15', '14:00', 2),
+(15, 'game', '2023-09-19', '14:00', 2),
+(16, 'game', '2023-09-22', '14:00', 2),
+(17, 'game', '2023-09-26', '14:00', 3),
+(18, 'game', '2023-09-29', '14:00', 3),
+(19, 'game', '2023-10-03', '14:00', 3),
+(20, 'game', '2023-10-07', '14:00', 3),
+(21, 'game', '2023-09-09', '19:00', 4),
+(22, 'game', '2023-09-05', '19:00', 4),
+(23, 'game', '2023-09-12', '19:00', 4),
+(24, 'game', '2023-09-10', '09:00', 4),
+(25, 'game', '2023-09-06', '09:00', 5),
+(26, 'game', '2023-09-13', '09:00', 5),
+(27, 'game', '2023-09-06', '14:00', 5),
+(28, 'game', '2023-09-13', '14:00', 6),
+(29, 'game', '2023-09-10', '14:00', 6),
+(30, 'game', '2023-09-06', '19:00', 6),
+(31, 'game', '2023-09-13', '19:00', 6);
 
 INSERT INTO teams (team_id, name, score, coach_id, location_id, session_id) VALUES
 (1, 'Thunder', 85, 18, 1, 1),
@@ -734,149 +740,171 @@ INSERT INTO team_players (cm_id, team_id, role) VALUES
 
 (1, 21, 'setter'),
 (2, 21, 'outside hitter'),
+
 (5, 22, 'libero'),
 (7, 22, 'defensive specialist'),
+
 (8, 23, 'setter'),
 (9, 23, 'outside hitter'),
+
 (11, 24, 'libero'),
 (13, 24, 'middle blocker'),
 
 (3, 25, 'setter'),
 (4, 25, 'outside hitter'),
+
 (6, 26, 'libero'),
 (10, 26, 'opposite hitter'),
 
 (12, 27, 'setter'),
 (15, 27, 'outside hitter'),
+
 (18, 28, 'libero'),
 (19, 28, 'defensive specialist'),
 
 (16, 29, 'setter'),
 (17, 29, 'outside hitter'),
+
 (22, 30, 'libero'),
 (23, 30, 'middle blocker'),
 
 (24, 31, 'setter'),
 (27, 31, 'outside hitter'),
+
 (28, 32, 'libero'),
 (29, 32, 'opposite hitter'),
 
 (20, 33, 'setter'),
 (21, 33, 'outside hitter'),
+
 (25, 34, 'libero'),
 (26, 34, 'defensive specialist'),
 
 (30, 35, 'setter'),
 (31, 35, 'outside hitter'),
+
 (32, 36, 'libero'),
 (33, 36, 'middle blocker'),
 
 (14, 37, 'setter'),
 (34, 37, 'outside hitter'),
+
 (35, 38, 'libero'),
 (36, 38, 'defensive specialist'),
 
 (37, 39, 'setter'),
 (38, 39, 'outside hitter'),
+
 (39, 40, 'libero'),
 (40, 40, 'opposite hitter'),
 
 (41, 41, 'setter'),
 (42, 41, 'outside hitter'),
+
 (43, 42, 'libero'),
 (44, 42, 'middle blocker'),
 
 (45, 43, 'setter'),
 (46, 43, 'outside hitter'),
+
 (47, 44, 'libero'),
 (48, 44, 'middle blocker'),
 
 (1, 45, 'setter'),
 (2, 45, 'outside hitter'),
+
 (5, 46, 'libero'),
 (7, 46, 'defensive specialist'),
 
 (8, 47, 'setter'),
 (9, 47, 'outside hitter'),
+
 (11, 48, 'libero'),
 (13, 48, 'middle blocker'),
 
 (3, 49, 'setter'),
 (4, 49, 'outside hitter'),
+
 (6, 50, 'libero'),
 (10, 50, 'opposite hitter'),
 
 (12, 51, 'setter'),
 (15, 51, 'outside hitter'),
+
 (18, 52, 'libero'),
 (19, 52, 'defensive specialist'),
 
 (16, 53, 'setter'),
 (17, 53, 'outside hitter'),
+
 (22, 54, 'libero'),
 (23, 54, 'middle blocker'),
 
 (24, 55, 'setter'),
 (27, 55, 'outside hitter'),
+
 (28, 56, 'libero'),
 (29, 56, 'opposite hitter'),
 
 (20, 57, 'setter'),
 (21, 57, 'outside hitter'),
+
 (25, 58, 'libero'),
 (26, 58, 'defensive specialist'),
 
 (30, 59, 'setter'),
 (31, 59, 'outside hitter'),
+
 (32, 60, 'libero'),
 (33, 60, 'middle blocker'),
 
 (14, 61, 'setter'),
 (34, 61, 'outside hitter'),
+
 (35, 62, 'libero'),
 (36, 62, 'defensive specialist'),
 
-(61, 13, 'libero'),
-(61, 14, 'setter'),
-(61, 15, 'outside hitter'),
-(61, 16, 'opposite hitter'),
-(61, 17, 'middle blocker'),
-(61, 18, 'defensive specialist'),
+(55, 13, 'libero'),
+(55, 15, 'setter'),
+(55, 17, 'outside hitter'),
+(55, 19, 'opposite hitter'),
+(55, 21, 'middle blocker'),
+(55, 23, 'defensive specialist'),
 
-(62, 14, 'libero'),
-(62, 15, 'setter'),
-(62, 16, 'outside hitter'),
-(62, 17, 'opposite hitter'),
-(62, 18, 'middle blocker'),
-(62, 19, 'defensive specialist'),
+(56, 14, 'libero'),
+(56, 16, 'setter'),
+(56, 18, 'outside hitter'),
+(56, 20, 'opposite hitter'),
+(56, 22, 'middle blocker'),
+(56, 24, 'defensive specialist'),
 
-(63, 15, 'libero'),
-(63, 16, 'setter'),
-(63, 17, 'outside hitter'),
-(63, 18, 'opposite hitter'),
-(63, 19, 'middle blocker'),
-(63, 20, 'defensive specialist'),
+(57, 13, 'libero'),
+(57, 15, 'setter'),
+(57, 17, 'outside hitter'),
+(57, 19, 'opposite hitter'),
+(57, 21, 'middle blocker'),
+(57, 23, 'defensive specialist'),
 
-(64, 16, 'libero'),
-(64, 17, 'setter'),
-(64, 18, 'outside hitter'),
-(64, 19, 'opposite hitter'),
-(64, 20, 'middle blocker'),
-(64, 13, 'defensive specialist'),
+(58, 14, 'libero'),
+(58, 16, 'setter'),
+(58, 18, 'outside hitter'),
+(58, 20, 'opposite hitter'),
+(58, 22, 'middle blocker'),
+(58, 24, 'defensive specialist'),
 
-(65, 17, 'libero'),
-(65, 18, 'setter'),
-(65, 19, 'outside hitter'),
-(65, 20, 'opposite hitter'),
-(65, 13, 'middle blocker'),
-(65, 14, 'defensive specialist'),
+(59, 13, 'libero'),
+(59, 15, 'setter'),
+(59, 17, 'outside hitter'),
+(59, 19, 'opposite hitter'),
+(59, 21, 'middle blocker'),
+(59, 23, 'defensive specialist'),
 
-(66, 18, 'libero'),
-(66, 19, 'setter'),
-(66, 20, 'outside hitter'),
-(66, 13, 'opposite hitter'),
-(66, 14, 'middle blocker'),
-(66, 15, 'defensive specialist');
+(60, 14, 'libero'),
+(60, 16, 'setter'),
+(60, 18, 'outside hitter'),
+(60, 20, 'opposite hitter'),
+(60, 22, 'middle blocker'),
+(60, 24, 'defensive specialist');
 
 
 INSERT INTO email_log (
