@@ -13,8 +13,8 @@ VALUES (
     1, -- Location ID (sender)
     10, -- cm_id (receiver)
     CURDATE(),
-    'Montreal Group A - 05-Aug-2025 6:00 PM training session',
-    'Dear John Smith, you are assigned as setter. Head Coach: Sarah Lee (sarah@club.com). This is a training session held at 123 Volleyball Street.'
+    'Montreal Group A 05-Aug-2025 6:00 PM train session',
+    'Dear John Smith, you are assigned as setter. Head Coach: Sarah Lee (sarah@club.com).'
 );
 -- Retrieve and display the logged emails, most recent first
 SELECT * FROM email_log ORDER BY date DESC;
