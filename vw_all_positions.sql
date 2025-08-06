@@ -27,7 +27,7 @@ WITH
         SELECT
             cm_id
         FROM team_players
-        WHERE `role` = 'outisde hitter'
+        WHERE `role` = 'outside hitter'
     ),
 
     opp_hit AS (

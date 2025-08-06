@@ -2,6 +2,7 @@
 DROP VIEW IF EXISTS view_family_secondary_info;
 CREATE VIEW view_family_secondary_info AS
 SELECT
+	fcr.fm_id,
     sfm.first_name AS sfm_first_name,
     sfm.last_name AS sfm_last_name,
     sfm.phone AS sfm_phone,
@@ -20,5 +21,4 @@ SELECT
 FROM sec_fam_members sfm
 JOIN family_club_relations fcr ON sfm.sfm_id = fcr.sfm_id AND sfm.fm_id = fcr.fm_id
 JOIN club_members cm ON fcr.cm_id = cm.cm_id
-JOIN postal_codes pc ON cm.postal_code = pc.postal_code
-ORDER BY sfm.first_name, cm.cm_id;
+JOIN postal_codes pc ON cm.postal_code = pc.postal_code;

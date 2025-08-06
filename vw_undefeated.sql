@@ -5,8 +5,8 @@ USE ftc353_1;
     This view generates a report of all active club members who have never lost a game they where they played
 */
 
-DROP VIEW IF EXISTS fam_coach;
-CREATE VIEW fam_coach AS
+DROP VIEW IF EXISTS undefeated;
+CREATE VIEW undefeated AS
 
 WITH
     membership_list AS (
@@ -62,7 +62,7 @@ WITH
     ),
 
     undefeated_members_info AS (
-        SELECT
+        SELECT DISTINCT
             cm.cm_id,
             cm.first_name,
             cm.last_name,
@@ -76,4 +76,5 @@ WITH
             ON cm.location_id = loc.location_id
     )
 
-SELECT * FROM undefeated_members_info;
+SELECT * FROM undefeated_members_info
+GROUP BY cm_id, first_name, last_name, phone, email, location_name;

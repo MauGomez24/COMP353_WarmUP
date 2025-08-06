@@ -39,7 +39,7 @@ WITH
 
     fam_coaches AS (
         SELECT
-            fam.first_name,
+            DISTINCT fam.first_name,
             fam.last_name,
             fam.phone
         FROM fam_active_members fam
