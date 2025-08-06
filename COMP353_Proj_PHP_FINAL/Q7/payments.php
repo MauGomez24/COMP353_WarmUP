@@ -1,7 +1,7 @@
 <?php include 'db.php'; ?>
 <?php include 'header.php'; ?>
 
-<h2>All Payments</h2>
+<h2>All Payments</h2> 
 
 <table>
   <tr>
