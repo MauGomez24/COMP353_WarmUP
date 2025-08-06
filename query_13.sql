@@ -1,4 +1,7 @@
 -- query 13
+DROP VIEW IF EXISTS view_active_members_without_team_assignments;
+CREATE VIEW view_active_members_without_team_assignments AS
+
 -- Delete any existing data for the dummy team_id = 999 to avoid duplicate entry errors
 DELETE FROM team_players WHERE team_id = 999;
 DELETE FROM teams WHERE team_id = 999;
