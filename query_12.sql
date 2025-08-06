@@ -1,5 +1,8 @@
 -- Query 12: Report on team formations for all locations
 -- Period: From September 1st, 2023 to October 31st, 2023
+DROP VIEW IF EXISTS view_team_formation_report_by_location;
+CREATE VIEW view_team_formation_report_by_location AS
+
 SELECT 
     l.name AS location_name,
     COUNT(CASE WHEN s.type = 'train' THEN 1 END) AS total_training_sessions,
