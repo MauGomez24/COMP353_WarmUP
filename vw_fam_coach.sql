@@ -38,8 +38,8 @@ WITH
     ),
 
     fam_coaches AS (
-        SELECT DISTINCT
-            fam.first_name,
+        SELECT
+            DISTINCT fam.first_name,
             fam.last_name,
             fam.phone
         FROM fam_active_members fam

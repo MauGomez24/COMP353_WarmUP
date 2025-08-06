@@ -76,4 +76,5 @@ WITH
             ON cm.location_id = loc.location_id
     )
 
-SELECT * FROM undefeated_members_info;
+SELECT * FROM undefeated_members_info
+GROUP BY cm_id, first_name, last_name, phone, email, location_name;

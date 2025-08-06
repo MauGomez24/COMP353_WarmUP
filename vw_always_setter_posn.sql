@@ -33,4 +33,5 @@ WITH
     )
 
 SELECT * FROM setters_info
+GROUP BY cm_id, first_name, last_name, age, phone, email, location_name
 ORDER BY location_name ASC, cm_id ASC;
