@@ -1,4 +1,7 @@
 -- query 10
+DROP VIEW IF EXISTS view_team_formations_by_location_period;
+CREATE VIEW view_team_formations_by_location_period AS
+
 SELECT
 	s.session_id,
     p.first_name AS coach_first_name,
