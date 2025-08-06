@@ -1,4 +1,6 @@
 -- query 9
+DROP VIEW IF EXISTS view_family_secondary_info;
+CREATE VIEW view_family_secondary_info AS
 SELECT
     sfm.first_name AS sfm_first_name,
     sfm.last_name AS sfm_last_name,
