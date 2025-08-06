@@ -2,6 +2,10 @@
 -- Insert payment records for club members 50 to 57
 -- Members 50 to 55 have only one old payment from 2022 (making them eligible for 2+ years membership)
 -- Members 56 and 57 have mixed years (for variety and test cases)
+
+DROP VIEW IF EXISTS view_inactive_longterm_multilocation_members;
+CREATE VIEW view_inactive_longterm_multilocation_members AS
+
 INSERT INTO payments (cm_id, memb_year, payment_date, amount, method) VALUES
 (50, 2022, '2022-06-01', 99.99, 'cash'),
 (51, 2022, '2022-07-01', 120.00, 'credit'),
